@@ -612,9 +612,9 @@ clean: test_proj/CMakeFiles/test_proj_gencpp.dir/clean
 # Target rules for target test_proj/CMakeFiles/test_proj_generate_messages.dir
 
 # All Build rule for target.
+test_proj/CMakeFiles/test_proj_generate_messages.dir/all: test_proj/CMakeFiles/test_proj_generate_messages_lisp.dir/all
 test_proj/CMakeFiles/test_proj_generate_messages.dir/all: test_proj/CMakeFiles/test_proj_generate_messages_cpp.dir/all
 test_proj/CMakeFiles/test_proj_generate_messages.dir/all: test_proj/CMakeFiles/test_proj_generate_messages_py.dir/all
-test_proj/CMakeFiles/test_proj_generate_messages.dir/all: test_proj/CMakeFiles/test_proj_generate_messages_lisp.dir/all
 	$(MAKE) -f test_proj/CMakeFiles/test_proj_generate_messages.dir/build.make test_proj/CMakeFiles/test_proj_generate_messages.dir/depend
 	$(MAKE) -f test_proj/CMakeFiles/test_proj_generate_messages.dir/build.make test_proj/CMakeFiles/test_proj_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/course/hurt0504/robotics_projects_ws/build/CMakeFiles 
