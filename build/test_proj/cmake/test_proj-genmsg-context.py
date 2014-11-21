@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/course/hurt0504/robotics_projects_ws/src/test_proj/msg/Num.msg"
-services_str = ""
+services_str = "/home/course/hurt0504/robotics_projects_ws/src/test_proj/srv/AddTwoInts.srv"
 pkg_name = "test_proj"
 dependencies_str = "std_msgs"
 langs = "gencpp;genlisp;genpy"

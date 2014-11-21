@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "test_proj: 1 messages, 0 services")
+message(STATUS "test_proj: 1 messages, 1 services")
 
 set(MSG_I_FLAGS "-Itest_proj:/home/course/hurt0504/robotics_projects_ws/src/test_proj/msg;-Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg")
 
@@ -25,6 +25,12 @@ _generate_msg_cpp(test_proj
 )
 
 ### Generating Services
+_generate_srv_cpp(test_proj
+  "/home/course/hurt0504/robotics_projects_ws/src/test_proj/srv/AddTwoInts.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/test_proj
+)
 
 ### Generating Module File
 _generate_module_cpp(test_proj
@@ -54,6 +60,12 @@ _generate_msg_lisp(test_proj
 )
 
 ### Generating Services
+_generate_srv_lisp(test_proj
+  "/home/course/hurt0504/robotics_projects_ws/src/test_proj/srv/AddTwoInts.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/test_proj
+)
 
 ### Generating Module File
 _generate_module_lisp(test_proj
@@ -83,6 +95,12 @@ _generate_msg_py(test_proj
 )
 
 ### Generating Services
+_generate_srv_py(test_proj
+  "/home/course/hurt0504/robotics_projects_ws/src/test_proj/srv/AddTwoInts.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/test_proj
+)
 
 ### Generating Module File
 _generate_module_py(test_proj

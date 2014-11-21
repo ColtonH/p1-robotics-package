@@ -46,6 +46,7 @@ CMAKE_BINARY_DIR = /home/course/hurt0504/robotics_projects_ws/build
 include test_proj/CMakeFiles/test_proj_generate_messages_cpp.dir/progress.make
 
 test_proj/CMakeFiles/test_proj_generate_messages_cpp: /home/course/hurt0504/robotics_projects_ws/devel/include/test_proj/Num.h
+test_proj/CMakeFiles/test_proj_generate_messages_cpp: /home/course/hurt0504/robotics_projects_ws/devel/include/test_proj/AddTwoInts.h
 
 /home/course/hurt0504/robotics_projects_ws/devel/include/test_proj/Num.h: /opt/ros/hydro/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/course/hurt0504/robotics_projects_ws/devel/include/test_proj/Num.h: /home/course/hurt0504/robotics_projects_ws/src/test_proj/msg/Num.msg
@@ -54,8 +55,17 @@ test_proj/CMakeFiles/test_proj_generate_messages_cpp: /home/course/hurt0504/robo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from test_proj/Num.msg"
 	cd /home/course/hurt0504/robotics_projects_ws/build/test_proj && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/course/hurt0504/robotics_projects_ws/src/test_proj/msg/Num.msg -Itest_proj:/home/course/hurt0504/robotics_projects_ws/src/test_proj/msg -Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg -p test_proj -o /home/course/hurt0504/robotics_projects_ws/devel/include/test_proj -e /opt/ros/hydro/share/gencpp/cmake/..
 
+/home/course/hurt0504/robotics_projects_ws/devel/include/test_proj/AddTwoInts.h: /opt/ros/hydro/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/course/hurt0504/robotics_projects_ws/devel/include/test_proj/AddTwoInts.h: /home/course/hurt0504/robotics_projects_ws/src/test_proj/srv/AddTwoInts.srv
+/home/course/hurt0504/robotics_projects_ws/devel/include/test_proj/AddTwoInts.h: /opt/ros/hydro/share/gencpp/cmake/../msg.h.template
+/home/course/hurt0504/robotics_projects_ws/devel/include/test_proj/AddTwoInts.h: /opt/ros/hydro/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/course/hurt0504/robotics_projects_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from test_proj/AddTwoInts.srv"
+	cd /home/course/hurt0504/robotics_projects_ws/build/test_proj && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/course/hurt0504/robotics_projects_ws/src/test_proj/srv/AddTwoInts.srv -Itest_proj:/home/course/hurt0504/robotics_projects_ws/src/test_proj/msg -Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg -p test_proj -o /home/course/hurt0504/robotics_projects_ws/devel/include/test_proj -e /opt/ros/hydro/share/gencpp/cmake/..
+
 test_proj_generate_messages_cpp: test_proj/CMakeFiles/test_proj_generate_messages_cpp
 test_proj_generate_messages_cpp: /home/course/hurt0504/robotics_projects_ws/devel/include/test_proj/Num.h
+test_proj_generate_messages_cpp: /home/course/hurt0504/robotics_projects_ws/devel/include/test_proj/AddTwoInts.h
 test_proj_generate_messages_cpp: test_proj/CMakeFiles/test_proj_generate_messages_cpp.dir/build.make
 .PHONY : test_proj_generate_messages_cpp
 

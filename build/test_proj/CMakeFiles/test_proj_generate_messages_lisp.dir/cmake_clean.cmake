@@ -1,6 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/test_proj_generate_messages_lisp"
   "/home/course/hurt0504/robotics_projects_ws/devel/share/common-lisp/ros/test_proj/msg/Num.lisp"
+  "/home/course/hurt0504/robotics_projects_ws/devel/share/common-lisp/ros/test_proj/srv/AddTwoInts.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

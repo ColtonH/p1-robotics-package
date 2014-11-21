@@ -46,7 +46,9 @@ CMAKE_BINARY_DIR = /home/course/hurt0504/robotics_projects_ws/build
 include test_proj/CMakeFiles/test_proj_generate_messages_py.dir/progress.make
 
 test_proj/CMakeFiles/test_proj_generate_messages_py: /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/msg/_Num.py
+test_proj/CMakeFiles/test_proj_generate_messages_py: /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/srv/_AddTwoInts.py
 test_proj/CMakeFiles/test_proj_generate_messages_py: /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/msg/__init__.py
+test_proj/CMakeFiles/test_proj_generate_messages_py: /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/srv/__init__.py
 
 /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/msg/_Num.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/msg/_Num.py: /home/course/hurt0504/robotics_projects_ws/src/test_proj/msg/Num.msg
@@ -54,15 +56,31 @@ test_proj/CMakeFiles/test_proj_generate_messages_py: /home/course/hurt0504/robot
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG test_proj/Num"
 	cd /home/course/hurt0504/robotics_projects_ws/build/test_proj && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/course/hurt0504/robotics_projects_ws/src/test_proj/msg/Num.msg -Itest_proj:/home/course/hurt0504/robotics_projects_ws/src/test_proj/msg -Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg -p test_proj -o /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/msg
 
+/home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/srv/_AddTwoInts.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
+/home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/srv/_AddTwoInts.py: /home/course/hurt0504/robotics_projects_ws/src/test_proj/srv/AddTwoInts.srv
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/course/hurt0504/robotics_projects_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV test_proj/AddTwoInts"
+	cd /home/course/hurt0504/robotics_projects_ws/build/test_proj && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/course/hurt0504/robotics_projects_ws/src/test_proj/srv/AddTwoInts.srv -Itest_proj:/home/course/hurt0504/robotics_projects_ws/src/test_proj/msg -Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg -p test_proj -o /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/srv
+
 /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/msg/__init__.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/msg/__init__.py: /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/msg/_Num.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/course/hurt0504/robotics_projects_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
+/home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/msg/__init__.py: /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/srv/_AddTwoInts.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/course/hurt0504/robotics_projects_ws/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python msg __init__.py for test_proj"
 	cd /home/course/hurt0504/robotics_projects_ws/build/test_proj && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/msg --initpy
 
+/home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/srv/__init__.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/srv/__init__.py: /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/msg/_Num.py
+/home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/srv/__init__.py: /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/srv/_AddTwoInts.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/course/hurt0504/robotics_projects_ws/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python srv __init__.py for test_proj"
+	cd /home/course/hurt0504/robotics_projects_ws/build/test_proj && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/srv --initpy
+
 test_proj_generate_messages_py: test_proj/CMakeFiles/test_proj_generate_messages_py
 test_proj_generate_messages_py: /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/msg/_Num.py
+test_proj_generate_messages_py: /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/srv/_AddTwoInts.py
 test_proj_generate_messages_py: /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/msg/__init__.py
+test_proj_generate_messages_py: /home/course/hurt0504/robotics_projects_ws/devel/lib/python2.7/dist-packages/test_proj/srv/__init__.py
 test_proj_generate_messages_py: test_proj/CMakeFiles/test_proj_generate_messages_py.dir/build.make
 .PHONY : test_proj_generate_messages_py
 

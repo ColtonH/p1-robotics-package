@@ -46,6 +46,7 @@ CMAKE_BINARY_DIR = /home/course/hurt0504/robotics_projects_ws/build
 include test_proj/CMakeFiles/test_proj_generate_messages_lisp.dir/progress.make
 
 test_proj/CMakeFiles/test_proj_generate_messages_lisp: /home/course/hurt0504/robotics_projects_ws/devel/share/common-lisp/ros/test_proj/msg/Num.lisp
+test_proj/CMakeFiles/test_proj_generate_messages_lisp: /home/course/hurt0504/robotics_projects_ws/devel/share/common-lisp/ros/test_proj/srv/AddTwoInts.lisp
 
 /home/course/hurt0504/robotics_projects_ws/devel/share/common-lisp/ros/test_proj/msg/Num.lisp: /opt/ros/hydro/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
 /home/course/hurt0504/robotics_projects_ws/devel/share/common-lisp/ros/test_proj/msg/Num.lisp: /home/course/hurt0504/robotics_projects_ws/src/test_proj/msg/Num.msg
@@ -53,8 +54,15 @@ test_proj/CMakeFiles/test_proj_generate_messages_lisp: /home/course/hurt0504/rob
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from test_proj/Num.msg"
 	cd /home/course/hurt0504/robotics_projects_ws/build/test_proj && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/course/hurt0504/robotics_projects_ws/src/test_proj/msg/Num.msg -Itest_proj:/home/course/hurt0504/robotics_projects_ws/src/test_proj/msg -Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg -p test_proj -o /home/course/hurt0504/robotics_projects_ws/devel/share/common-lisp/ros/test_proj/msg
 
+/home/course/hurt0504/robotics_projects_ws/devel/share/common-lisp/ros/test_proj/srv/AddTwoInts.lisp: /opt/ros/hydro/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
+/home/course/hurt0504/robotics_projects_ws/devel/share/common-lisp/ros/test_proj/srv/AddTwoInts.lisp: /home/course/hurt0504/robotics_projects_ws/src/test_proj/srv/AddTwoInts.srv
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/course/hurt0504/robotics_projects_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from test_proj/AddTwoInts.srv"
+	cd /home/course/hurt0504/robotics_projects_ws/build/test_proj && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/course/hurt0504/robotics_projects_ws/src/test_proj/srv/AddTwoInts.srv -Itest_proj:/home/course/hurt0504/robotics_projects_ws/src/test_proj/msg -Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg -p test_proj -o /home/course/hurt0504/robotics_projects_ws/devel/share/common-lisp/ros/test_proj/srv
+
 test_proj_generate_messages_lisp: test_proj/CMakeFiles/test_proj_generate_messages_lisp
 test_proj_generate_messages_lisp: /home/course/hurt0504/robotics_projects_ws/devel/share/common-lisp/ros/test_proj/msg/Num.lisp
+test_proj_generate_messages_lisp: /home/course/hurt0504/robotics_projects_ws/devel/share/common-lisp/ros/test_proj/srv/AddTwoInts.lisp
 test_proj_generate_messages_lisp: test_proj/CMakeFiles/test_proj_generate_messages_lisp.dir/build.make
 .PHONY : test_proj_generate_messages_lisp
 

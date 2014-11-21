@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/course/hurt0504/robotics_projects_ws/src/test_proj/src/add_two_ints_client.cpp
+ros/ros.h
+/home/course/hurt0504/robotics_projects_ws/src/test_proj/src/ros/ros.h
+testProj/AddTwoInts.h
+/home/course/hurt0504/robotics_projects_ws/src/test_proj/src/testProj/AddTwoInts.h
+cstdlib
+-
+

@@ -345,6 +345,58 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named add_two_ints_client
+
+# Build rule for target.
+add_two_ints_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add_two_ints_client
+.PHONY : add_two_ints_client
+
+# fast build rule for target.
+add_two_ints_client/fast:
+	$(MAKE) -f test_proj/CMakeFiles/add_two_ints_client.dir/build.make test_proj/CMakeFiles/add_two_ints_client.dir/build
+.PHONY : add_two_ints_client/fast
+
+#=============================================================================
+# Target rules for targets named add_two_ints_server
+
+# Build rule for target.
+add_two_ints_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add_two_ints_server
+.PHONY : add_two_ints_server
+
+# fast build rule for target.
+add_two_ints_server/fast:
+	$(MAKE) -f test_proj/CMakeFiles/add_two_ints_server.dir/build.make test_proj/CMakeFiles/add_two_ints_server.dir/build
+.PHONY : add_two_ints_server/fast
+
+#=============================================================================
+# Target rules for targets named listener
+
+# Build rule for target.
+listener: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 listener
+.PHONY : listener
+
+# fast build rule for target.
+listener/fast:
+	$(MAKE) -f test_proj/CMakeFiles/listener.dir/build.make test_proj/CMakeFiles/listener.dir/build
+.PHONY : listener/fast
+
+#=============================================================================
+# Target rules for targets named talker
+
+# Build rule for target.
+talker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 talker
+.PHONY : talker
+
+# fast build rule for target.
+talker/fast:
+	$(MAKE) -f test_proj/CMakeFiles/talker.dir/build.make test_proj/CMakeFiles/talker.dir/build
+.PHONY : talker/fast
+
+#=============================================================================
 # Target rules for targets named test_proj_gencpp
 
 # Build rule for target.
@@ -463,6 +515,10 @@ help:
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... add_two_ints_client"
+	@echo "... add_two_ints_server"
+	@echo "... listener"
+	@echo "... talker"
 	@echo "... test_proj_gencpp"
 	@echo "... test_proj_generate_messages"
 	@echo "... test_proj_generate_messages_cpp"
