@@ -1,0 +1,8 @@
+prefix=/home/course/hurt0504/robotics_projects_ws/install
+
+Name: test_proj
+Description: Description of test_proj
+Version: 0.0.0
+Cflags: -I/home/course/hurt0504/robotics_projects_ws/install/include
+Libs: -L/home/course/hurt0504/robotics_projects_ws/install/lib 
+Requires: message_runtime

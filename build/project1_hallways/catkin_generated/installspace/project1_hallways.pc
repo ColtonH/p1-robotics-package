@@ -1,0 +1,8 @@
+prefix=/home/course/hurt0504/robotics_projects_ws/install
+
+Name: project1_hallways
+Description: Description of project1_hallways
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/course/hurt0504/robotics_projects_ws/install/lib 
+Requires: 

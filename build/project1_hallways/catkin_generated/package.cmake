@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "project1_hallways")
+set(project1_hallways_MAINTAINER "Colton Hurt <colton.t.hurt-1@ou.edu>, John Johnson <john.johnson@ou.edu>")
+set(project1_hallways_DEPRECATED "")
+set(project1_hallways_VERSION "0.0.0")
+set(project1_hallways_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(project1_hallways_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(project1_hallways_BUILDTOOL_DEPENDS "catkin")
